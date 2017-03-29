@@ -1,0 +1,36 @@
+{
+  "name": "wj-motif",
+  "version": "0.4.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass src/styles/styles.scss -o lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "reapop",
+    "theme",
+    "react",
+    "redux",
+    "notifications",
+    "notification",
+    "component"
+  ],
+  "author": "pathumathukorala",
+  "license": "eBuilder",
+  "bugs": {
+    "url": ""
+  },
+  "peerDependencies": {
+    "font-awesome": "^4.6.1",
+    "reapop": ">=0.6.0"
+  },
+  "devDependencies": {
+    "node-sass": "^3.10.0"
+  }
+}
