@@ -10,11 +10,11 @@ var alertSuccess = css['alert-success'];
 var alertDanger = css['alert-danger'];
 
 var alerts = {
-  alertDefault: css['alert-default'];
-  alertInfo: css['alert-info'];
-  alertWarning: css['alert-warning'];
-  alertSuccess: css['alert-success'];
-  alertDanger: css['alert-danger'];
+  alertDefault: css['alert-default'],
+  alertInfo: css['alert-info'],
+  alertWarning: css['alert-warning'],
+  alertSuccess: css['alert-success'],
+  alertDanger: css['alert-danger']
 }
 
 var alertAnimations = {
