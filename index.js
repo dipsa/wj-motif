@@ -22,7 +22,7 @@ var alertAnimations = {
   leave: css['notification-leave']
 }
 
-module.exports = {
+export default {
   alerts: alerts,
   alertAnimations: alertAnimations,
   tenants: {

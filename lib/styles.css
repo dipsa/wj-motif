@@ -1,0 +1,96 @@
+@-moz-keyframes :local(alert-top-enter) {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes :local(alert-top-enter) {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes :local(alert-top-enter) {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes :local(alert-top-enter) {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes :local(alert-top-leave) {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes :local(alert-top-leave) {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes :local(alert-top-leave) {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes :local(alert-top-leave) {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.alert-default {
+  padding: 8px;
+  font: 400 1.166666666666667px Roboto;
+  line-height: 20px;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 0;
+  margin: 5px 10px 5px 10px;
+  background: url("../assets/images/tile.jpg") top left repeat;
+}
+.alert-info,
+.alert-warning,
+.alert-success,
+.alert-danger {
+  padding: 8px;
+  font: 400 1.166666666666667px Roboto;
+  line-height: 20px;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 0;
+  margin: 5px 10px 5px 10px;
+}
+:local .notification-enter {
+  opacity: 0.01;
+  -webkit-animation-name: alert-top-enter;
+  animation-name: alert-top-enter;
+  transition: opacity 500ms ease-in;
+}
+:local .notification-leave {
+  opacity: 1;
+  -webkit-animation-name: alert-top-leave;
+  animation-name: alert-top-leave;
+  transition: opacity 300ms ease-in;
+}
