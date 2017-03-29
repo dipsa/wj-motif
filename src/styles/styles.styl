@@ -1,0 +1,28 @@
+@import 'variables'
+@import 'mixins'
+
+.alert-default {
+	alert-font: 8px
+	background: url($ALERT_BG) top left repeat
+}
+
+.alert-info,
+.alert-warning,
+.alert-success
+.alert-danger {
+	alert-font: 8px
+}
+
+:local .notification-enter {
+  opacity: 0.01;
+  -webkit-animation-name: alert-top-enter;
+  animation-name: alert-top-enter;
+  transition: opacity 500ms ease-in;
+}
+
+:local .notification-leave {
+  opacity: 1;
+  -webkit-animation-name: alert-top-leave;
+  animation-name: alert-top-leave;
+  transition: opacity 300ms ease-in;
+}

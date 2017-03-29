@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node-sass src/styles/styles.scss -o lib",
+    "build": "stylus src/styles/styles.styl -o lib",
     "prepublish": "npm run build"
   },
   "repository": {
@@ -31,6 +31,7 @@
     "reapop": ">=0.6.0"
   },
   "devDependencies": {
-    "node-sass": "^3.10.0"
+    "node-sass": "^3.10.0",
+    "stylus": "^0.54.5"
   }
 }
