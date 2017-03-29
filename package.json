@@ -12,23 +12,14 @@
     "type": "git",
     "url": ""
   },
-  "keywords": [
-    "reapop",
-    "theme",
-    "react",
-    "redux",
-    "notifications",
-    "notification",
-    "component"
-  ],
+  "keywords": [],
   "author": "pathumathukorala",
   "license": "eBuilder",
   "bugs": {
     "url": ""
   },
   "peerDependencies": {
-    "font-awesome": "^4.6.1",
-    "reapop": ">=0.6.0"
+    "font-awesome": "^4.6.1"
   },
   "devDependencies": {
     "node-sass": "^3.10.0",
